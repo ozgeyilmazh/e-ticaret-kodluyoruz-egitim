@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 ">
+
+            <a href="{% url 'carousel_list' %}" class="btn btn-info">Carousel - List</a>
+            <hr>
+            
+            <a href="{% url 'page_list' %}" class="btn btn-info">Page - List</a>
+            <hr>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
